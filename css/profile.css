@@ -1,0 +1,79 @@
+.header {
+  margin: 2% 30% 2% 37%;
+}
+.header h2 {
+  padding-top: 25px;
+}
+.main {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 25% 75%;
+}
+
+.navi li {
+  color: chocolate;
+  padding: 5% 1%;
+  font-size: large;
+  text-justify: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navi li :hover {
+  background-color: chocolate;
+  color: white;
+  font-size: larger;
+}
+.navi a {
+  color: chocolate;
+}
+.imgclass {
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.social :hover {
+  background-color: rgba(255, 255, 255, 0);
+  font-size: larger;
+}
+.social {
+  font-size: 30px;
+}
+#about {
+  text-indent: 7.5%;
+  margin-left: 2.5%;
+}
+.fl {
+  float: left;
+}
+#read {
+  margin-left: 40%;
+}
+.right {
+  height: 50vmax;
+  width: 100%;
+}
+.left {
+  height: 53vmax;
+  width: 100%;
+  background-color: rgba(156, 156, 156, 0.455);
+}
+.iten {
+  text-indent: 10%;
+}
+.itwen {
+  text-indent: 20%;
+}
+.ifive {
+  text-indent: 5%;
+}
+.ms20 {
+  margin-left: 20%;
+}
+.ms27 {
+  margin-left: 27%;
+}
+.me05 {
+  margin-right: 5%;
+}
+.ptext {
+  text-align: center;
+  font-size: 16px;
+}

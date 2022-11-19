@@ -1,0 +1,24 @@
+* {
+  margin: 0%;
+}
+body {
+  background-image: url("../assests/images/bluesky.webp");
+  height: 70vh;
+  overflow-y: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+.container {
+  width: 50%;
+  height: auto;
+  margin: 25%;
+}
+p,
+button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

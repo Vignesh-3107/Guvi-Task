@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/profile.css" >
+    <link rel="icon" href="./assests/images/webicon.jpg" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="./js/profile.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <title>Eye of Hawk</title>
+   
+</head>
+<body onload="visitLoading()" ><div class="container">
+    <div class="header">
+    <img src="./assests/images/EyeOfHawk.png" class="fl" alt="Eye Of Hawk" height="100px" width="100px" title="Eye of Hawk" ></img>
+    <h2 class="h2">Eye of Hawk</h2>
+    </div>
+    <div>
+    <h3 class="h3" style="font-size:30px;color:red;">Industry 4.0</h3>
+    <div class="container main">
+    <div class="container left">
+         <img class="img rounded-circle bg-white imgclass" src="./assests/images/user.png" alt="Author Image " title="Author" height="110px" width="110px"></img>
+        <br><br>
+         <h4 class="h4 text-center" class="iten">Vignesh Chinnasamy</h4>
+        <h6 class="h6 text-center"  class="iten">@Viknesh7013</h6>
+        <br>
+        <button class="btn btn-primary btn-lg ms27" onclick="followers()"><span id="Followbtn">Follow </span>&nbsp;<i class="fa-solid fa-user-plus"></i></button>
+        <ul class="nav social ms20" >
+            <li class="nav-item"><a class="nav-link" href=""><i class="fa-brands fa-facebook con text-primary" ></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/vignesh-chinnasamy/"><i class="fab fa-linkedin-in text-primary"  ></i></a></li>
+            <li class="nav-item"><a class="nav-link" href=""><i class="fab fa-google con text-danger" ></i></a></li>
+            </ul>
+            <br>
+        <hr>
+        <p class="itwen"><i class="fa-solid fa-notes-medical me05"></i> <span class="h5 ifive" >Posts </span> &nbsp; - &nbsp;  <b>310</b> </p>
+        <p  class="itwen"><i class="fa-solid fa-users me05"></i> <span class="h5 ifive">Followers </span> &nbsp; - &nbsp;  <b id="follower">489</b> </p>
+        <p  class="itwen"><i class="fa-solid fa-user-plus me05"></i> <span class="h5 ifive" >Following </span> &nbsp; - &nbsp;  <b>83</b> </p>
+        <p  class="itwen"><i class="fa-regular fa-thumbs-up me05"></i> <span class="h5 ifive" >Likes </span> &nbsp; - &nbsp;  <b>533</b> </p>
+        <p  class="itwen"><i class="fa-regular fa-thumbs-down me05" ></i> <span class="h5 ifive">Dislikes </span> &nbsp; - &nbsp;  <b>15</b> </p>
+
+        <br>
+        <hr>
+        <p class="h6 ptext"><i class="fa-regular fa-copyright"></i> Eye of Hawk .</p><br>
+        <button class="btn btn-primary disabled ms20" > Total Visitor  - &nbsp; <span id="visit"> </span></button>
+    </div>
+    <div class="container right" >
+    
+       <ul class="nav navi">
+        <li class="nav-item"> <a class="nav-link" href="#">Home </a></li>
+        <li class="nav-item"> <a class="nav-link disabled" href="#">Technology </a></li>
+        <li class="nav-item"> <a class="nav-link disabled" href="#">Evolution </a></li>
+        <li class="nav-item"> <a class="nav-link disabled" href="#">Trends </a></li>
+        <li class="nav-item"> <a class="nav-link disabled" href="#">FAQs </a></li>
+       </ul>
+       <br><br>
+       <p id="about"> Industry 4.0, which revolutionizes the automation, monitoring, and analysis of supply chains through smart technology. 
+        Industry 4.0 is powered by the Industrial Internet of Things (IIoT) and cyber-physical systems – smart, autonomous systems that use computer-based algorithms to monitor and control physical things like machinery, robots, and vehicles. 
+        Industry 4.0 makes everything in your supply chain “smart” – from smart manufacturing and factories to smart warehousing and logistics. But Industry 4.0 doesn’t stop at the supply chain. It inter-connects with back-end systems, like enterprise resource planning (ERP), to give companies an unprecedented level of visibility and control.
+        Ultimately, Industry 4.0 is a major part of any company’s digital transformation. </p>
+        <br><br><br><br>
+        <p class="text-center">__________________________________________ &nbsp;<i class="fa-solid fa-lock"></i> &nbsp;__________________________________________ </p>
+         <button class="btn btn-primary" onclick="visitor()" id="read"> Continue to Reading </button>
+         <br><br><br><br><br>
+         
+    </div>
+
+    </div></div>
+</div>
+</body>
+</html>
